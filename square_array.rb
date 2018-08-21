@@ -5,5 +5,7 @@ def square_array(array)
   # end 
   
   # return squares
+  
+  array.collect { |num| num * num }
 end
 
